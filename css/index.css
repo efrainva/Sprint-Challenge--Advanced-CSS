@@ -249,12 +249,15 @@ footer {
   height: auto;
   border-radius: 5px;
 }
+.btn:hover {
+  background: white;
+  color: black;
+}
 .btn {
   height: 40px;
   width: 100%;
   font-size: 1.75rem;
   color: white;
-  padding: 8px 10px;
   border: 1px solid black;
   background: black;
   text-align: center;
