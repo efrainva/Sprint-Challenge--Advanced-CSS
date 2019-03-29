@@ -160,6 +160,29 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+html {
+  font-size: 65.2%;
+}
+.top {
+  max-width: 1200px;
+  height: 100px;
+  margin: 0 auto;
+  background: whitesmoke;
+}
+h1 {
+  padding: 5px 0px 0px 0px;
+  font-size: 4rem;
+  margin: 10px 35%;
+}
+nav {
+  margin: 1% 33%;
+}
+a {
+  font-size: 1.5rem;
+  padding: 10px;
+  text-decoration: none;
+  color: #464646;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -220,29 +243,6 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
-}
-html {
-  font-size: 65.2%;
-}
-.top {
-  max-width: 1200px;
-  height: 100px;
-  margin: 0 auto;
-  background: whitesmoke;
-}
-h1 {
-  padding: 5px 0px 0px 0px;
-  font-size: 4rem;
-  margin: 10px 35%;
-}
-nav {
-  margin: 1% 33%;
-}
-a {
-  font-size: 1.5rem;
-  padding: 10px;
-  text-decoration: none;
-  color: #464646;
 }
 .top-png {
   width: 100%;
