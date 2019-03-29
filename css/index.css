@@ -226,18 +226,32 @@ html {
 }
 .top {
   max-width: 1200px;
+  height: 100px;
   margin: 0 auto;
-  background: lightgray;
+  background: whitesmoke;
+}
+h1 {
+  padding: 5px 0px 0px 0px;
+  font-size: 4rem;
+  margin: 10px 35%;
+}
+nav {
+  margin: 1% 33%;
+}
+a {
+  font-size: 1.5rem;
+  padding: 10px;
+  text-decoration: none;
+  color: #464646;
 }
 .top-png {
-  max-width: 800px;
   width: 100%;
   height: auto;
-  margin: 0 auto;
+  border-radius: 5px;
 }
 .btn {
   height: 40px;
-  width: 100px;
+  width: 100%;
   font-size: 1.75rem;
   color: white;
   padding: 8px 10px;
@@ -245,4 +259,37 @@ html {
   background: black;
   text-align: center;
   border-radius: 5px;
+}
+@media (max-width: 500px) {
+  h1 {
+    margin: 5px 15%;
+  }
+  nav {
+    padding-top: 5px;
+    margin: 0px 5%;
+  }
+  .two-sky {
+    display: none;
+  }
+  .home .space-images img {
+    width: 92%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .walk {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .home .walk .walk-text {
+    width: 100%;
+  }
+  .home .walk .walk-img img {
+    width: 200%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .btn {
+    width: 100%;
+  }
 }
