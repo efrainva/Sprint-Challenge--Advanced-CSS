@@ -11,6 +11,9 @@
 @import "footer.less" ;
 @import "home-page.less" ;
 
+
+@phone:~"max-width: 500px";
+
 html{
     font-size: 65.2%;
 }
@@ -52,7 +55,7 @@ a{
     border-radius: 5px;
 }
 
-@media(max-width:500px){
+@media(@phone){
     h1{
     margin: 5px 15%;
     }
