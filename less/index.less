@@ -3,10 +3,73 @@
 
 
 
+@import "variables.less" ;
+@import "mixins.less" ;
+@import "reset.less" ;
+@import "global.less" ;
+@import "navigation.less" ;
+@import "footer.less" ;
+@import "home-page.less" ;
 
 
+@phone:~"max-width: 500px";
 
 
+.top-png{
+    .one-mix();
+    height: auto;
+    border-radius:5px;
+}
+
+.btn:hover{
+    background: white;
+    color: black;
+}
+
+.btn{
+    height: 40px;
+    .one-mix();
+    font-size: 1.75rem;
+    color: white;
+    border: 1px solid black;
+    background: black;
+    text-align:center;
+    border-radius: 5px;
+}
 
 
+@media(@phone){
+    h1{
+    margin: 5px 15%;
+    }
+    nav{
+        padding-top:5px;
+        margin: 0px 5%;
+    }
+    .two-sky{
+        display: none;
+    }
+    .home .space-images img{
+        width: 92%;
+        height:auto;
+        margin: 0 auto;
+    }
+    .walk{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+
+    }
+    .home .walk .walk-text{
+        .one-mix();
+    }
+    .home .walk .walk-img img {
+        width: 200%;
+        height:auto;
+        margin: 0 auto;
+    }
+    .btn{
+        .one-mix();
+    }
+}
 
